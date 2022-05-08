@@ -113,20 +113,4 @@ class Testing(unittest.TestCase):
             self.priority_queue.add_items(self.items)
 
 if __name__ == '__main__':
-    # items = [
-    #     dict(),
-    #     dict(priority=5, command="x * y"),
-    #     dict(priority=7, command="foo"),
-    #     dict(priority=3, command="4 * x"),
-    #     dict(priority=1, command="4 * y"),
-    #     dict(priority=7, command="bar"),
-    #     dict(priority=9, command="y * 5"),
-    #     dict(priority=3, command="4 * 5"),
-    # ]
-    # mapping = dict(foo="foo", bar="bar", x=2, y=3)
-    # priority_queue = PriorityQueue()
-    # priority_queue.add_items(items)
-    # list(priority_queue.execute_all(**mapping))
-
-
     unittest.main()
